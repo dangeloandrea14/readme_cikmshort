@@ -38,10 +38,6 @@ For the sake of anonimity, we cannot release the full code, as it is part of a w
 
 ## Complete Results
 
-Here, we present a table containing the results of all runs we performed, including different random seeding.
-
-# Results Overview
-
 In this section we report the tables with the full results of all the unlearning experiments, including the mean and standard deviation across multiple runs for each evaluation metric. For each unlearning method, we highlight the configuration that achieves the highest Global Unlearning Metric (GUM).
 
 ## 1. Image Datasets
