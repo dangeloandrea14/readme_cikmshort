@@ -3,7 +3,7 @@ from torch_geometric.nn.aggr import MeanAggregation
 import torch.nn as nn
 from torch_geometric.nn.conv import GCNConv
 import torch
-from erasure.core.factory_base import build_w_params_string
+from <NS> import build_w_params_string
 
 class GCN(nn.Module):
    
