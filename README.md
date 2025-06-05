@@ -13,22 +13,22 @@ A unified study to evaluate machine unlearning techniques across text, tabular, 
 
 Here we report the Named Entities used for each dataset:
 
-* Adult: Random Sampling
-* Ag News: ["Real Madrid", "Juventus", "Bayern Monaco", "Arsenal", "Manchester United", "Arsenal", "Chelsea", "Manchester City", "Inter Milan", "Lakers", "Ronaldo", "Messi"]
-* BACE: Random Sampling
-* BBBP: Random Sampling
-* CelebA: IDS [2820, 3227, 3782, 3745, 3699, 9152, 8968, 9256, 4887, 6568, 4126, 2114, 4740, 1757, 4262, 4978, 9840, 9915, 2070, 10083]
-* CIFAR100: Random Sampling
-* IMDB: Movie IDs from 0 to 1500
-* Spotify: Random Sampling
+* **Adult**: Random Sampling
+* **Ag News**: ["Real Madrid", "Juventus", "Bayern Monaco", "Arsenal", "Manchester United", "Arsenal", "Chelsea", "Manchester City", "Inter Milan", "Lakers", "Ronaldo", "Messi"]
+* **BACE**: Random Sampling
+* **BBBP**: Random Sampling
+* **CelebA**: People IDs [2820, 3227, 3782, 3745, 3699, 9152, 8968, 9256, 4887, 6568, 4126, 2114, 4740, 1757, 4262, 4978, 9840, 9915, 2070, 10083] (we only report IDs as actors' name are anonymized.)
+* **CIFAR100**: Random Sampling
+* **IMDB**: Movie IDs from 0 to 1500
+* **Spotify**: Random Sampling
 
 
 The *models* folder contains the architectures of all trained models for the experiments.
 
-* For the ResNet18, we trained for 20 epochs with 0.001 lr and 0.001 weight decay in AdamW optimizer.
-* For BERT, we trained for 3 epochs, with 2e-5 lr, as is standard in the literature. Optimizer was AdamW.
-* For tabular, we trained for 20 epochs, 0.001 lr, Adam optimizer.
-* For Graphs, we trained for 10 epochs, 0.001 lr, 0.5 momentum, RMSProp optimizer.
+* For the **ResNet18** (image) models, we trained for 20 epochs with 0.001 lr and 0.001 weight decay in AdamW optimizer.
+* For **BERT** (text), we trained for 3 epochs, with 2e-5 lr, as is standard in the literature. Optimizer was AdamW.
+* For **tabular**, we trained for 20 epochs, 0.001 lr, Adam optimizer.
+* For **Graphs**, we trained for 10 epochs, 0.001 lr, 0.5 momentum, RMSProp optimizer.
 
 
 ## Reproducibility
